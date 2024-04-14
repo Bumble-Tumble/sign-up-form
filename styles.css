@@ -1,0 +1,10 @@
+body{
+    display: flex;
+}
+.photoSide{
+    background-image: url(./leaf.jpg);
+}
+.odinImgDiv{
+    background-color: grey;
+    opacity: 0.2;
+}
