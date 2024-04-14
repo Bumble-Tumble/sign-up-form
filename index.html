@@ -8,8 +8,8 @@
 </head>
 <body>
     <div class="photoSide">
-        <div class="odingImgDiv"><img src="./odin.png" alt="odin"></div>
-    <p>photo by Halie West on Unsplash</p>   
+        <div class="odinImgDiv"><img class ="odin" src="./odin.png" alt="odin"><p class="odinText">Odin</p></div>
+    <p class="creditText">photo by Halie West on Unsplash</p>   
     </div>
     <div class="formSide">
         <div>
@@ -22,24 +22,28 @@
         <div>
         <form action="../sign-up-form/">
             <div>
+                <section>
             <label for="first-name">First Name</label>
             <input type="text" id="first-name">
 
             <label for="last-name">Last Name</label>
             <input type="text" id="last-name">
-
+                </section>
+                <section>
             <label for="email">Email</label>
             <input type="email" id="email">
 
             <label for="phone-number">Phone Number</label>
             <input type="number" id="phone-number">
-
+                </section>
+                <section>
             <label for="password">Password</label>
             <input type="text" id="password">
 
             <label for="password-confirm">Confirm Password</label>
             <input type="text" id="password-confirm">
-            </div>
+                </section>
+        </div>
             <button type="submit">Create Account</button>
         </form>
         </div>

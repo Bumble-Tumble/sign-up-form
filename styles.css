@@ -1,10 +1,40 @@
-body{
+html,body{
     display: flex;
+    height: 100%;
+    --odinPostion: 35%;
 }
 .photoSide{
     background-image: url(./leaf.jpg);
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+
 }
 .odinImgDiv{
-    background-color: grey;
-    opacity: 0.2;
+    background: rgb(0,0,0, 0.3);
+    display: flex;
+    color: white;
+    position: relative;
+    top: 40%;
+}
+.odin{
+    width: 20%;
+    opacity: 1;
+    position: relative;
+    left: var(--odinPostion);
+}
+.odinText{
+    position: relative;
+    left: var(--odinPostion);
+    display: flex;
+    align-self: center;
+    font-size: 3rem;
+    opacity: 1;
+}
+.creditText{
+    display: flex;
+    position: relative;
+    top: 80%;
+    justify-content: center;
+    color:white;
 }
