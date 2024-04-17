@@ -2,20 +2,24 @@ html,body{
     display: flex;
     height: 100%;
     --odinPostion: 35%;
+    margin: 0px;
 }
 .photoSide{
     background-image: url(./leaf.jpg);
-    width: 50%;
+    width: 55%;
     height: 100%;
     background-size: cover;
-
+}
+.formSide{
+  padding: 15px;
+  width: 45%;
 }
 .odinImgDiv{
     background: rgb(0,0,0, 0.3);
     display: flex;
     color: white;
     position: relative;
-    top: 40%;
+    top: 20%;
 }
 .odin{
     width: 20%;
@@ -28,8 +32,9 @@ html,body{
     left: var(--odinPostion);
     display: flex;
     align-self: center;
-    font-size: 3rem;
+    font-size: 100px;
     opacity: 1;
+    font-family: NorseBold;
 }
 .creditText{
     display: flex;
@@ -37,4 +42,51 @@ html,body{
     top: 80%;
     justify-content: center;
     color:white;
+    margin: 0px;
+}
+.text{
+font-size: 20px;
+font-weight: bold;
+                                            
+}
+.formText{
+font-size: 1rem;
+}
+.shadow{
+    box-shadow:  0px 2px rgba(78, 78, 78, 0.2);
+}
+.label{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+.buttonSection{
+    padding: 20px;
+    display: flex;
+}
+.nameBox,.contactBox,.passwordBox{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+input{
+    width: 85%;
+}
+button{
+    background-color: green;
+    border-radius: 10px;
+    height: 40px;
+}
+a{
+    color: green;
+}
+.text2{
+    padding-top: 20px;
+}
+.text3{
+    padding-top: 40px;
+}
+@font-face {
+    font-family: NorseBold;
+    src: url(./Norse-Bold.otf);
 }
